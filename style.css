@@ -516,6 +516,10 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .m-1 {
   margin: 0.25rem;
 }
@@ -559,10 +563,6 @@ video {
 
 .h-32 {
   height: 8rem;
-}
-
-.min-h-screen {
-  min-height: 100vh;
 }
 
 .w-32 {
@@ -834,6 +834,10 @@ video {
 
   .lg\:h-1\/2 {
     height: 50%;
+  }
+
+  .lg\:min-h-screen {
+    min-height: 100vh;
   }
 
   .lg\:w-1\/2 {
